@@ -5,7 +5,22 @@ Boas vindas! Este é seu caderno virtual. Aqui você deverá guardar todos os co
 ## Conteúdo Técnico
 Escreva aqui os conteúdos aprendidos.aprendi sobre string, variaveis e desenvolvimento de pesquisa de caixase produção de tabela de preço.
 
+String: Junção de códigos que formam uma caixa de texto
+
+Number: Forma de definição de valor numerico com a intenção de demonstrar o valor de algo
+
+variaveis: Código usado para armanezar informações
+
+```js
+const fruta = "Pitaya"
+console.log(fruta)
+```
 
 ## Atividades desenvolvidas
 FIZ EM EQUIPE UM VIDEO SOBRE STRING E NUMBER
+
+```js
+const nome = "Ian"
+console.log(note);
+```
 
