@@ -22,5 +22,16 @@ FIZ EM EQUIPE UM VIDEO SOBRE STRING E NUMBER
 ```js
 const nome = "Ian"
 console.log(note);
+
+
 ```
 
+
+```js
+const livros = ["Javascript Assertivo", "Engenharia de testes", "Clean Code", "Scrum", "Guia HTML e CSS", "MongoDB"]
+
+const hqs = ["Homem Aranha", "Batman", "Feitieira Escarlate", "Vingadores", "X-Men"];
+
+const juntarlivros = livros.concat(hqs)
+
+console.log(juntarlivros)
