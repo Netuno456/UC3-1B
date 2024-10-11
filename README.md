@@ -35,3 +35,80 @@ const hqs = ["Homem Aranha", "Batman", "Feitieira Escarlate", "Vingadores", "X-M
 const juntarlivros = livros.concat(hqs)
 
 console.log(juntarlivros)
+
+```
+ATIVIDADE FUNCTION
+
+```js
+function soma (num1, num2) {
+ return num1 + num2
+}
+console.log(soma(7, 2))
+
+const compra1 = prompt("Qual o valor da primeira compra?")
+const compra2 = prompt("Qual o valor da segunda compra?")
+
+if (compra1 > compra2) {
+ console.log(soma(compra1, compra2));
+} else if (compra1 < compra2) {
+ console.log(subtração(compra1, compra2));
+} else {
+  console.log("Error");
+}
+
+```
+
+ATIVIDADE PROMPT(?)
+
+```js
+const feriados = prompt ("Digite um Mês para saber seu feriado nacional")
+
+Janeiro:
+ window.alert("Confraternização Universal")
+    break;
+Fevereiro:
+ window.alert("Carnaval")
+
+Março:
+ window.alert("Paixão de Cristo")
+
+Abril:
+  window.alert("Tiradentes")
+
+Maio:
+  window.alert("Corpus Christi")
+   break; 
+Junho:
+  window.alert("São João")
+   break;
+Julho:
+  window.alert("Revolução Constitucionalista")
+   break;
+Agosto:
+  window.alert("Assunção de Nossa Senhora")
+   break;
+Setembro:
+  window.alert("Dia da Independência")
+   break;
+Outubro:
+  window.alert("Nossa Senhora Aparecida")
+   break;
+Novembro:
+  window.alert("Finados, Proclamação da República")
+   break;
+Dezembro:
+  window.alert("Natal")
+
+```
+
+ATIVIDADE FUNCTION
+
+```js
+function inverterString(pesquisa) {
+ return pesquisa.split ("").reverse().join("");
+}
+
+console.log(inverterString("girafarig, ovo, chien-pao, ting-lu")) 
+
+```
+
